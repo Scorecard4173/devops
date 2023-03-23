@@ -1,0 +1,7 @@
+- hosts: greenanimals-gitlab
+  gather_facts: no
+  become: yes
+  vars:
+       reg_token: GR1348941XmGM-GHXKZ8LnAXbvFL_
+  roles:
+    - gitlab-runner
